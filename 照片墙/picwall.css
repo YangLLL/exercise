@@ -1,0 +1,100 @@
+body{
+    width:100%;
+    padding:0;
+    margin:0 auto;
+	background-image:url(123.jpg)
+	
+ }
+ h1{
+     color:#666;
+     text-align:center;
+ }
+ #mywall{
+	width:1000px;
+	margin:0 auto;
+	height:600px;
+	background-color:#FFCC99;
+	position:relative;
+ }
+ img{
+	position:absolute;
+	padding:10px 10px 15px 10px;
+	background-color:#999999;
+	transform:rotate(-10deg) ;
+    transition:all 0.5s ease-in;
+ }
+ img:hover
+ {
+    
+	transform:rotate(0deg) scale(1.5);
+	box-shadow:10px 10px 10px #000000;
+	z-index:2;
+ }
+ .pic1{
+	height:250px;
+	width:200px;
+ }
+ .pic2{
+	height:200px;
+	width:300px;
+	top:0;
+	left:200px;
+	transform:rotate(5deg);
+ }
+ .pic3{
+	height:200px;
+	width:250px;
+	top:0;
+	right:200px;
+	transform:rotate(20deg);
+ }
+ .pic4{
+	height:250px;
+	width:200px;
+	right:0px;
+	transform:rotate(-10deg);
+ }
+ .pic5{
+	height:200px;
+	width:300px;
+	top:200px;
+	right:300px;
+	transform:rotate(-20deg);
+ }
+ .pic6{
+	height:170px;
+	width:280px;
+	top:200px;
+	left:50px;
+	transform:rotate(0deg);
+ }
+ 
+ .pic7{
+	height:250px;
+	width:200px;
+	top:200px;
+	right:0px;
+	transform:rotate(-20deg);
+ }
+ .pic8{
+	height:200px;
+	width:300px;
+	bottom:-10px;
+	left:0px;
+	transform:rotate(6deg);
+ }
+
+  .pic9{
+	height:200px;
+	width:300px;
+	bottom:0px;
+	left:300px;
+	transform:rotate(0deg);
+ }
+  .pic10{
+	height:200px;
+	width:300px;
+	bottom:0px;
+	right:0px;
+	transform:rotate(6deg);
+ }
