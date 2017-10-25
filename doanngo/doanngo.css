@@ -1,0 +1,272 @@
+body{
+    width:1100px;
+    padding:0;
+    margin:0 auto;
+ }
+#main{
+	width:100%;
+	margin-top: 10px;
+	padding-top:0;
+	/*background-color: #000;*/
+}
+#headpic{
+	position: relative;
+	top:-40px;
+	width:100%;
+	height: 350px;
+	background-image: url("image/a2.jpg");
+	/*border:solid 3px #d0d6d9;*/
+}
+h1{
+	position: relative;
+	left:100px;
+	top:80px;
+	font-size: 70px;
+	font-family:SimHei;
+}
+#header{
+	position: relative;
+	top:-30px;
+	/*top:-20px;*/
+	width:100%;
+	height: 80px;
+	font-size: 30px;
+	/*border:solid 3px #e9dfac;*/
+	background:-webkit-linear-gradient(#e9dfac,#fff);
+	background:-moz-linear-gradient(#e9dfac,#fff);
+	background:-ms-linear-gradient(#e9dfac,#fff);
+	background:-o-linear-gradient(#e9dfac,#fff);
+	background:gradient(#e9dfac,#fff);
+}
+.box{
+	position:relative;
+	display:inline-block;
+	left:20px;
+	
+	width:200px;
+	height:80px;
+	text-align: center;
+	vertical-align: center;
+	line-height: 80px;
+
+}
+.box:hover{
+	background-color: #CCCCCC;
+}
+#part1{
+	position: relative;
+	top:-20px;
+	height:350px;
+	width:100%;
+	font-size:22px;
+	color:black;
+	font-family:KaiTi;
+	border-bottom:solid 3px #000;
+}
+h3{
+	position: relative;
+	font-size: 30px;
+	left:20px;
+	font-family: NSimSun ;
+}
+.test{
+	position: relative;
+	top:40px;
+	width:400px;
+	height: 300px;
+	margin:0 0 15px 20px;
+	margin:-10px 0 10px 15px;
+	float:right;
+}
+.pic1{
+	padding-top:0px;
+	width:400px;
+	height: 300px;
+}
+
+#part2{
+	position: relative;
+	top:-20px;
+	width:100%;
+	height:390px;
+	border-bottom:solid 3px #000;
+}
+.holder{
+	/*margin-left:300px;*/
+	width:100%;
+	height:300px;
+	/*overflow: hidden;*/
+	border:5px solid #d0d6d9;
+	overflow:hidden;
+}
+#slider{
+	position: relative;
+	width:100%;
+	height: 100%;
+	-webkit-transition: all .75s ease;
+	   -moz-transition: all .75s ease;
+	    -ms-transition: all .75s ease;
+	     -o-transition: all .75s ease;
+	        transition: all .75s ease;
+    
+}
+img{
+	position: absolute;
+	display:block;
+	width:25%;
+	height:100%;
+}
+/*img:hover{
+	transform:rotate(0deg) scale(1.5);
+	box-shadow:10px 10px 10px #000000;
+	z-index:2;
+}*/
+.im1{
+	left:0%;
+}
+.im2{
+	left:25%;
+}
+.im3{
+	left:50%;
+}
+.im4{
+	left:75%;
+}
+.im5{
+	left:100%;
+}
+.im6{
+	left:125%;
+}
+.im7{
+	left:150%;
+}
+
+.control{
+	position: relative;
+	width:200px;
+	height: 40px;
+	left:520px;
+	margin-top:-30px;
+	
+}
+.al{
+	position:absolute;
+	display: block;
+	width:15px;
+	height: 15px;
+	border-radius:20px;
+	background-color: #000;
+	top:5px;
+	margin-top:5px;
+	
+}
+#a1{
+	left:0%;
+}
+#a2{
+	left:25%;
+}
+#a3{
+	left:50%;
+}
+#a4{
+	left:75%;
+}
+
+#part3{
+	position: relative;
+	top:-20px;
+	width:100%;
+	height: 400px;
+	font-size:20px;
+	line-height: 20px;
+	border-bottom:solid 3px #000;
+}
+.pic2{
+	position: relative;
+	top:30px;
+	width:300px;
+	height: 350px;
+	margin:-10px 10px 15px 20px;
+	float:right;
+}
+#part4{
+	position: relative;
+	top:-20px;
+	width:100%;
+	height:500px;
+	border-bottom:solid 3px #000;
+}
+.left{
+	position: relative;
+	width:50%;
+	height:220px;
+	float: left;
+}
+.right{
+	position: relative;
+	width:50%;
+	height:220px;
+	float: left;
+}
+.pic4{
+	position: relative;
+	top:0px;
+	width:200px;
+	height: 200px;
+	margin:-10px 10px 15px 20px;
+	float:left;
+}
+.pic5{
+	position: relative;
+	top:0px;
+	width:200px;
+	height: 200px;
+	margin:-10px 10px 15px 20px;
+	float:left;
+}
+
+.pic6{
+	position: relative;
+	top:0px;
+	width:200px;
+	height: 200px;
+	margin:-10px 10px 15px 20px;
+	float:right;
+}
+.pic7{
+	position: relative;
+	top:0px;
+	width:200px;
+	height: 200px;
+	margin:-10px 10px 15px 20px;
+	float:right;
+}
+
+#part5{
+	position: relative;
+	top:-20px;
+	width:100%;
+	height:270px;
+	/*border-bottom:solid 3px #000;*/
+	margin-bottom: 50px;
+	font-size: 16px;
+	/*border:solid 3px #0f0f0f;*/
+}
+.shiju
+{
+-moz-column-count:3; /* Firefox */
+-webkit-column-count:3; /* Safari and Chrome */
+column-count:3;
+}
+#footer{
+	position: relative;
+	width:100%;
+	height:70px;
+	text-align:center;
+	line-height: 70px;
+	top:-50px;
+	border:solid 3px #d0d6d9;
+}
